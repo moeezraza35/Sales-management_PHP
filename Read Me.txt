@@ -1,0 +1,28 @@
+Sales Management
+
+[Requirements]
+	- Windows 10 / Windows 11
+	- Xampp v3.0.0 or latest
+
+[Installation]
+	- Unzip and move to "C:\Program Files\xampp\htdocs\"
+	- Go to browser and type in the top URL bar "localhost/sales/"
+	- Enter database host name, i.e. "localhost"
+	- Enter Privilaged User, i.e. "root"
+	- Enter Password "<blank>"
+	- Enter New user for login into your sales app.
+	- Enter Password and confirm Password for sales app user.
+	- Click Install
+	- Enter your login information (Values of last 3rd and 2nd last input field)
+
+[Error details]
+	- Report page has disabled both date input fields:
+		just enter more data in it.
+
+	- No items are showing on main home or index page:
+		make items in pricing field.
+		
+	- Can't login and redirecting to login page
+		delete login.html from URL.
+		Make sure you're entering correct details
+		If forgotten check "settings.json" file.
